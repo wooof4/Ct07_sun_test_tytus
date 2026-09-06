@@ -19,4 +19,5 @@ function draw(){
     floor.height=20;
     floor.x=width/2;
     floor.y=height-20
+    floor.collider='static'
     }
