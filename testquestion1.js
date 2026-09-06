@@ -8,5 +8,5 @@ function draw(){
     
 }
 function mousePressed(){
-        ball.x=mouse.xs
+        ball.x=mouse.x
     }
