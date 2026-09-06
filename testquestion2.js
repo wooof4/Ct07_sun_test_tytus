@@ -16,9 +16,9 @@ function draw(){
     ball.mass=1;
     }
     floor=new Sprite(0, 350, 600, 20);
-    floor.width=600;
-    floor.height=20;
-    floor.x=300;
-    floor.y=400;
+    // floor.width=600;
+    // floor.height=20;
+    // floor.x=300;
+    // floor.y=400;
     floor.collider='static';
     }
