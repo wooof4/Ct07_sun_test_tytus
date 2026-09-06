@@ -10,6 +10,5 @@ function draw(){
 function mousePressed(){
         ball.x=mouse.x
         ball.y=mouse.y
-        ball.width=50
         ball.height=50
     }
