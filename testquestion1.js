@@ -11,5 +11,5 @@ function mousePressed(){
         ball.x=mouse.x
         ball.y=mouse.y
         ball.diameter=50
-        ball.colliders='dynamic'
+        ball.collider='dynamic'
     }
