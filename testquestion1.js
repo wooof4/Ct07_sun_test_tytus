@@ -6,13 +6,16 @@ function setup(){
 }
 function draw(){
     background('white')
-}
-
-function mousePressed(){
+    if (mouse.presses()){
     ball=new Sprite();
     ball.diameter=50;
     ball.x=mouse.x;
     ball.y=mouse.y;
     ball.collider='dynamic';  
     ball.mass=1;
+    }
+}
+
+function mousePressed(){
+
 }
