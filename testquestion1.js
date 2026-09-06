@@ -10,7 +10,7 @@ function setup(){
 }
 function draw(){
    mouse.presses()
-   }
+}
 
 // function mousePressed(){
 //         ball.x=mouse.x;
