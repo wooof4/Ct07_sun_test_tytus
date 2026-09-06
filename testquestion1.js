@@ -2,8 +2,11 @@ let ball;
 function setup(){
     createCanvas(600,400);
     background('white');
-    ball=Sprite()
+    ball=Sprite();
 }
 function draw(){
-    mouseP
+    
 }
+function mousePressed(){
+        ball.x=mouse.xs
+    }
