@@ -18,7 +18,7 @@ function draw(){
     floor=new Sprite();
     floor.width=600;
     floor.height=20;
-    floor.x=width/2;
-    floor.y=height-20;
+    floor.x=300;
+    floor.y=400;
     floor.collider='static';
     }
