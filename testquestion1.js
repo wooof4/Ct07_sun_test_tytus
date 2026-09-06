@@ -5,5 +5,5 @@ function setup(){
     ball=Sprite()
 }
 function draw(){
-    
+    mouseP
 }
