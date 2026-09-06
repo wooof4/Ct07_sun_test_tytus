@@ -5,5 +5,5 @@ function setup(){
     ball=sprite()
 }
 function draw(){
-
+    
 }
