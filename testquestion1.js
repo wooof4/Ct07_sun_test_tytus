@@ -2,6 +2,7 @@ let ball;
 function setup(){
     createCanvas(600,400);
     background('white');
+    world.y
 }
 function draw(){
     
