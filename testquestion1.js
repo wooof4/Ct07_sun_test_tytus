@@ -9,7 +9,7 @@ function setup(){
     ball.diameter=50; 
 }
 function draw(){
-   
+   mousePressed
 }
 function mousePressed(){
         ball.x=mouse.x;
