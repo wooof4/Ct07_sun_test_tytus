@@ -4,6 +4,12 @@ function setup(){
     createCanvas(600,400);
     background('white');
     world.gravity.y=5;
+        floor=new Sprite();
+    floor.width=600;
+    floor.height=20;
+    floor.x=300;
+    floor.y=400;
+    floor.collider='static';
 }
 function draw(){
     background('white')
@@ -15,10 +21,5 @@ function draw(){
     ball.collider='dynamic';  
     ball.mass=1;
     }
-    floor=new Sprite();
-    floor.width=600;
-    floor.height=20;
-    floor.x=300;
-    floor.y=400;
-    floor.collider='static';
+
     }
