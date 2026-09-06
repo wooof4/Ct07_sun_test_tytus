@@ -2,7 +2,7 @@ let ball;
 function setup(){
     createCanvas(600,400);
     background('white');
-    world.gravity.y=50;
+    world.gravity.y=25;
 }
 function draw(){
     background('white')
@@ -14,6 +14,6 @@ function mousePressed(){
     ball.x=mouse.x;
     ball.y=mouse.y;
     ball.collider='dynamic';  
-    ball.mass=2;
+    ball.mass=1;
     // ball.bounciness=0.2;
 }
