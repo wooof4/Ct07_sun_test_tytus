@@ -3,7 +3,7 @@ function setup(){
     createCanvas(600,400);
     background('white');
     ball=new Sprite();
-    ball.colliders='dynamic';  
+    ball.collider='dynamic';  
     ball.diameter=50; 
 }
 function draw(){
