@@ -2,10 +2,10 @@ let ball;
 function setup(){
     createCanvas(600,400);
     background('white');
-    world.y.gravity=192.6;
+    world.gravity.y=192.6;
 }
 function draw(){
-    
+    background
 }
 
 function mousePressed(){
