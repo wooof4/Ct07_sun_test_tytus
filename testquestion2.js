@@ -8,7 +8,7 @@ function setup(){
     floor.width=600;
     floor.height=20;
     floor.x=300;
-    floor.y=400-20;
+    floor.y=400+20;
     floor.collider='static';
 }
 function draw(){
