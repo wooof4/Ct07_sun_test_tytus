@@ -14,4 +14,5 @@ function draw(){
     ball.collider='dynamic';  
     ball.mass=1;
     }
+    floor=new Sprite
 }
