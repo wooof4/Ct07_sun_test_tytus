@@ -5,11 +5,11 @@ function setup(){
     ball=new Sprite();
 }
 function draw(){
-    
+          ball.collider='dynamic';  
 }
 function mousePressed(){
-        ball.x=mouse.x
-        ball.y=mouse.y
-        ball.diameter=50
-        ball.collider='dynamic'
+        ball.x=mouse.x;
+        ball.y=mouse.y;
+        ball.diameter=50;
+
     }
