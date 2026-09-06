@@ -15,7 +15,3 @@ function draw(){
     ball.mass=1;
     }
 }
-
-function mousePressed(){
-
-}
