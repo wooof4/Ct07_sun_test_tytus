@@ -2,7 +2,7 @@ let ball;
 function setup(){
     createCanvas(600,400);
     background('white');
-    // ball=Sprite();
+    ball=new Sprite();
 }
 function draw(){
     
