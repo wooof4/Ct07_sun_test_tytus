@@ -15,6 +15,6 @@ function mousePressed(){
     ball.y=mouse.y;
     ball.collider='dynamic';  
     ball.mass=2;
-    ball.gravity=192.6;
+    ball.bounciness=0.2;
     ball.diameter=50; 
 }
