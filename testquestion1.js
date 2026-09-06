@@ -4,7 +4,7 @@ function setup(){
     background('white');
     ball=new Sprite();
     ball.collider='dynamic';  
-    ball.
+    ball.mass=2;
     ball.diameter=50; 
 }
 function draw(){
