@@ -15,10 +15,10 @@ function draw(){
     ball.collider='dynamic';  
     ball.mass=1;
     }
-    floor=new Sprite(300, 350, 600, 20);
-    // floor.width=600;
-    // floor.height=20;
-    // floor.x=300;
-    // floor.y=400;
+    floor=new Sprite();
+    floor.width=600;
+    floor.height=20;
+    floor.x=300;
+    floor.y=400;
     floor.collider='static';
     }
