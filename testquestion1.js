@@ -5,7 +5,7 @@ function setup(){
     world.gravity.y=192.6;
 }
 function draw(){
-    background
+    background('white')
 }
 
 function mousePressed(){
