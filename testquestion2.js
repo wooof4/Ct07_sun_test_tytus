@@ -4,11 +4,11 @@ function setup(){
     createCanvas(600,400);
     background('white');
     world.gravity.y=5;
-        floor=new Sprite();
+    floor=new Sprite();
     floor.width=600;
     floor.height=20;
     floor.x=300;
-    floor.y=400;
+    floor.y=400-20;
     floor.collider='static';
 }
 function draw(){
