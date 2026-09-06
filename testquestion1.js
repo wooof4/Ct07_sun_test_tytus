@@ -5,6 +5,7 @@ function setup(){
     ball=new Sprite();
     ball.collider='dynamic';  
     ball.mass=2;
+    
     ball.diameter=50; 
 }
 function draw(){
