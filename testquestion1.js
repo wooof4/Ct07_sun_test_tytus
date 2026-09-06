@@ -3,7 +3,8 @@ function setup(){
     createCanvas(600,400);
     background('white');
     ball=new Sprite();
-   ball.collider='dynamic';   
+    ball.collider='dynamic';  
+    ball.diameter=50; 
 }
 function draw(){
    
@@ -11,5 +12,5 @@ function draw(){
 function mousePressed(){
         ball.x=mouse.x;
         ball.y=mouse.y;
-        ball.diameter=50;
+
     }
