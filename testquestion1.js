@@ -4,9 +4,9 @@ function setup(){
     background('white');
     ball=Sprite();
 }
-function draw(){
+// function draw(){
     
-}
+// }
 function mousePressed(){
         ball.x=mouse.x
     }
