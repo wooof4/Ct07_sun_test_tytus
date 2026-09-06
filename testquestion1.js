@@ -11,10 +11,10 @@ function draw(){
 
 function mousePressed(){
     ball=new Sprite();
+    ball.diameter=50; 
     ball.x=mouse.x;
     ball.y=mouse.y;
     ball.collider='dynamic';  
     ball.mass=2;
     // ball.bounciness=0.2;
-    ball.diameter=50; 
 }
