@@ -2,7 +2,7 @@ let ball;
 function setup(){
     createCanvas(600,400);
     background('white');
-    world.gravity.y=192.6;
+    world.gravity.y=50;
 }
 function draw(){
     background('white')
