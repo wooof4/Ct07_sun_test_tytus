@@ -15,5 +15,8 @@ function draw(){
     ball.mass=1;
     }
     floor=new Sprite();
-    
-}
+    floor.width=width;
+    floor.height=20;
+    floor.x=width/2;
+    floor.y=height-20
+    }
